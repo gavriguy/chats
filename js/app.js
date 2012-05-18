@@ -1,6 +1,6 @@
 var App = Em.Application.create({
     ready: function() {
-        App.someItemsView.appendTo('body');
+        App.someItemsView.appendTo('#work-area');
         this._super();
     }
 });
